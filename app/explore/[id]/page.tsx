@@ -43,7 +43,7 @@ const  TicketDetails = async({params}) => {
    </div>
    <p className=' text-slate-800 p-3'>{ticket.body}</p>
 
-<div>
+<div className={`pill ${ticket.priority}`}>
   <h4 className='text-black m-4'>Key Features</h4>
 <ul className='p-4 bg-teal-300'>
   <li>{ticket.features[0]}</li>

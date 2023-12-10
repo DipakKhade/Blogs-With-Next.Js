@@ -5,7 +5,7 @@ const NavBar = () => {
     <div className='rounded-md drop-shadow-md'>
     <div className="navbar bg-slate-300">
   <div className="flex-1">
-    <a className="btn btn-ghost text-xl">Beyond Binary</a>
+    <a className="btn btn-ghost text-xl text-blue-500">Beyond Binary</a>
   </div>
   <div className="flex-none">
     <div className="dropdown dropdown-end">

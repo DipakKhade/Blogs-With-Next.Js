@@ -24,7 +24,7 @@ const Cards = () => {
     <div className="card-actions justify-end">
 
 
-    <button className="btn btn-active"><Link href="https://nextjs.org/docs">Visit docs</Link></button>
+    <button className="btn btn-info"><Link href="https://nextjs.org/docs">Visit docs</Link></button>
     </div>
   </div>
 </div></div></>

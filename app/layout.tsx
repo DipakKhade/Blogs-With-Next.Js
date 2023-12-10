@@ -17,10 +17,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      
-      <body className={rubik.className}>
-      
+    <html lang="en">     
+      <body className={rubik.className}>   
         <NavBar/>
         {children}
         </body>

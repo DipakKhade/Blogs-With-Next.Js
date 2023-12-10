@@ -4,15 +4,28 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+
+Then ,start the localdata server i.e server a local json file via endpoint 
+create end-point using json-server package
+
+commands:
+npm i json-server
+json-server --watch --port 4000 ./_localdata/data.json 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

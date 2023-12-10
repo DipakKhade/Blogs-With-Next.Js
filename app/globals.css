@@ -124,8 +124,8 @@ body {
   .pill {
     @apply 
       py-1 px-2 mt-3
-      inline-block 
-      text-xs font-semibold;
+      
+     
   }
   .pill.high {
     @apply bg-red-300 text-red-600;

@@ -21,11 +21,13 @@ const page =async () => {
      
      {tickets.map((ticket) => (
           <Link href={`/explore/${ticket.id}`}>
-        <div key={ticket.id} className="card my-5">
+       <div >
+       <div key={ticket.id} className="card my-5">
           <h3>{ticket.title}</h3>
           <p>{ticket.body.slice(0, 200)}...</p>
          
         </div>
+       </div>
         </Link>
       ))}
       {tickets.length === 0 && (
