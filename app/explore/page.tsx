@@ -17,6 +17,8 @@ const page =async () => {
   return (
     
    <MaxWidthWrapper>
+
+    <h1 className='m-4 text-sky-700 text-xl'>Next.js </h1>
    
      
      {tickets.map((ticket) => (
