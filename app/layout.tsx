@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Rubik } from 'next/font/google'
 import './globals.css'
-import MaxWidthWrapper from '@/components/MaxwidthWrapper'
 import NavBar from '@/components/NavBar'
 
 const rubik = Rubik({ subsets: ['latin'] })
@@ -18,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">     
-      <body className={rubik.className}>   
+      <body className={rubik.className} >   
         <NavBar/>
         {children}
         </body>

@@ -5,7 +5,7 @@
       "title": "Introduction to Next.js",
       "body": "Next.js is a React framework that enables functionality such as server-side rendering and generating static websites for your React-based web applications. It provides a powerful and flexible development experience, allowing you to build modern, performant web applications with ease.",
       "priority": "low",
-      "visit_docs": "docs link",
+     
       "features": [
         "Server-side rendering (SSR)",
         "Static site generation (SSG)",
@@ -20,32 +20,17 @@
         "Incremental static regeneration (ISR)"
       ],
       "usage_examples": [
-        {
-          "example_title": "Static Website",
-          "description": "Generate a static website for improved performance and SEO."
-        },
-        {
-          "example_title": "Server-Side Rendered App",
-          "description": "Utilize server-side rendering for faster initial page loads and improved user experience."
-        },
-        {
-          "example_title": "API Routes",
-          "description": "Build serverless APIs using Next.js API routes for handling backend functionality."
-        }
-      ],
-      "related_technologies": [
-        "React",
-        "JavaScript",
-        "Node.js",
-        "Webpack",
-        "Babel",
-        "GraphQL"
-      ],
-      "community_links": {
-        "official_website": "https://nextjs.org/",
-        "github_repository": "https://github.com/vercel/next.js",
-        "community_forum": "https://github.com/vercel/next.js/discussions"
-      }
+        
+          "example- Static Website",
+          "description - Generate a static website for improved performance and SEO.",
+        
+        
+          "example- Server-Side Rendered App",
+          "description-Utilize server-side rendering for faster initial page loads and improved user experience."
+        
+        
+      ]
+     
     },
     {
       "id": "2",
@@ -60,28 +45,16 @@
         "Prefetching for faster navigation"
       ],
       "usage_examples": [
-        {
-          "example_title": "Static Pages",
-          "description": "Create static pages with straightforward file-based routing."
-        },
-        {
-          "example_title": "Dynamic Routes",
-          "description": "Use dynamic route parameters for creating pages that depend on data."
-        },
-        {
-          "example_title": "Nested Routes",
-          "description": "Organize pages into nested structures for better code organization."
-        }
-      ],
-      "related_technologies": [
-        "React Router",
-        "Vue Router",
-        "Angular Router"
-      ],
-      "community_links": {
-        "documentation": "https://nextjs.org/docs/routing/introduction",
-        "examples_repository": "https://github.com/vercel/next.js/tree/main/examples/routing"
-      }
+        "Example - Static Pages",
+        "description - Create static pages with straightforward file-based routing.",
+        
+        "Example - Dynamic Routes",
+        "description - Use dynamic route parameters for creating pages that depend on data.",
+        
+        "Example - Nested Routes",
+        "description - Organize pages into nested structures for better code organization."
+    ]
+    
     },
     {
       "id": "3",
@@ -96,29 +69,16 @@
         "Sass and Less support"
       ],
       "usage_examples": [
-        {
-          "example_title": "CSS Modules",
-          "description": "Isolate styles for each component using CSS Modules."
-        },
-        {
-          "example_title": "styled-components",
-          "description": "Use the popular styled-components library for styling React components."
-        },
-        {
-          "example_title": "Global Styles",
-          "description": "Apply global styles to your Next.js application for consistent branding."
-        }
-      ],
-      "related_technologies": [
-        "CSS Modules",
-        "styled-components",
-        "Sass",
-        "Less"
-      ],
-      "community_links": {
-        "styling_guide": "https://nextjs.org/docs/basic-features/built-in-css-support",
-        "examples_repository": "https://github.com/vercel/next.js/tree/main/examples/styling"
-      }
+        "Example - CSS Modules",
+        "description - Isolate styles for each component using CSS Modules.",
+        
+        "Example - styled-components",
+        "description - Use the popular styled-components library for styling React components.",
+        
+        "Example - Global Styles",
+        "description - Apply global styles to your Next.js application for consistent branding."
+    ]
+   
     },
     {
       "id": "4",
@@ -133,28 +93,16 @@
         "Fetching data in API routes"
       ],
       "usage_examples": [
-        {
-          "example_title": "Static Site with Dynamic Data",
-          "description": "Generate static pages with dynamic data using getStaticProps."
-        },
-        {
-          "example_title": "Real-time Data Updates",
-          "description": "Use SWR for fetching real-time data and updating the UI seamlessly."
-        },
-        {
-          "example_title": "Server-Side Rendered Pages",
-          "description": "Fetch data at request time with getServerSideProps for server-side rendered pages."
-        }
-      ],
-      "related_technologies": [
-        "GraphQL",
-        "RESTful APIs",
-        "Axios",
-        "Fetch API"
-      ],
-      "community_links": {
-        "data_fetching_guide": "https://nextjs.org/docs/basic-features/data-fetching",
-        "examples_repository": "https://github.com/vercel/next.js/tree/main/examples/data-fetching"
-      }
+        "Example - Static Site with Dynamic Data",
+        "description - Generate static pages with dynamic data using getStaticProps.",
+        
+        "Example - Real-time Data Updates",
+        "description - Use SWR for fetching real-time data and updating the UI seamlessly.",
+        
+        "Example - Server-Side Rendered Pages",
+        "description - Fetch data at request time with getServerSideProps for server-side rendered pages."
+    ]
+   
+    
     }]
 }

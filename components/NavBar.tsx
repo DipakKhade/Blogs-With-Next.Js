@@ -1,12 +1,27 @@
 import React from 'react'
-
+import Image from 'next/image'
+import mainlogo from '../_localdata/mainlogo.jpg'
+import Link from 'next/link'
 const NavBar = () => {
   return (
     <div className='rounded-md drop-shadow-md'>
     <div className="navbar bg-slate-300">
   <div className="flex-1">
+    <Image
+    src={mainlogo}
+    width={50}
+    height={50}
+    alt='logo'
+    quality={100}
+    className=' rounded-full'
+    ></Image>
     <a className="btn btn-ghost text-xl text-blue-500">Beyond Binary</a>
   </div>
+
+ <Link
+ href='/contact'>
+ <div className=' hover:bg-blue-500 p-3 hover:rounded-md hover:text-black hover:cursor-pointer'>Contact</div></Link>
+
   <div className="flex-none">
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -15,7 +30,7 @@ const NavBar = () => {
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 16h2v-2h-2v2zm0-4h2V7h-2v7z"/>
 </svg>
 
-          <span className="badge badge-sm indicator-item bg-green-400">.</span>
+          <span className="badge badge-sm indicator-item bg-blue-400">.</span>
         </div>
       </div>
       <div tabIndex={0} className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
