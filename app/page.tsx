@@ -8,6 +8,7 @@ import nextjslogo from "../_localdata/nextjslogo.png";
 import expresslogo from "../_localdata/expresslogo.png";
 import tailwindcsslogo from "../_localdata/tailwindlogo.jpg";
 import mongologo from "../_localdata/mongologo.jpg";
+import './overrides.css';
 
 export default function Home() {
   return (

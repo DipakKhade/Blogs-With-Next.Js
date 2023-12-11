@@ -6,7 +6,7 @@ First, run the development server:
 
 yarn dev
 
-Then ,start the localdata server i.e server a local json file via endpoint 
+Then ,start the localdata server i.e serve a local json file via endpoint 
 create end-point using json-server package
 
 commands:
